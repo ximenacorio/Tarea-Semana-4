@@ -6,7 +6,7 @@ apply plugin: 'com.github.ben-manes.versions'
 android {
     compileSdkVersion androidCompileSdkVersion
     defaultConfig {
-        applicationId "com.mikhaellopez.circularimageviewsample"
+        applicationId "com.ximena.circularimageviewmuestra"
         minSdkVersion androidMinSdkVersion
         targetSdkVersion androidTargetSdkVersion
         versionCode 1
@@ -21,7 +21,7 @@ android {
 
 dependencies {
     implementation project(':circularimageview')
-    //implementation "com.mikhaellopez:circularimageview:$androidVersionName"
+    //implementation "com.ximena:circularimageview:$androidVersionName"
 
     // KOTLIN
     implementation kotlinStdlib
